@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    
+    <!--========== BOX ICONS ==========-->
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Brand Galleria</title>
+    <!-- =========Title icon============ -->
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2589/2589849.png" type="image/icon type">
+  </head>
+  <body>
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bx-chevron-up scrolltop__icon"></i>
+    </a>
+    <!--========== HEADER ==========-->
+    <header class="l-header scroll-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">Brand Galleria</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">Services</a>
+            </li>
+            <!-- change menu to products -->
+            <li class="nav__item">
+              <a href="#products" class="nav__link">Products</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact Us</a>
+            </li>
+
+            <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+          </ul>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!-- =============Home================ -->
+      <section class="home" id="home">
+        <div class="home__container bd-container bd-grid">
+          <div class="home__data">
+            <h1 class="home__title">Brand Galleria</h1>
+            <h2 class="home__subtitle">
+              Premium imported Hoodies <br />
+              
+            </h2>
+            <a href="#products" class="button">View Products</a>
+          </div>
+
+          <img src="./assets/img/home.png" alt="" class="home__img" />
+        </div>
+      </section>
+
+      <!--========== ABOUT ==========-->
+      <section class="about section bd-container" id="about">
+        <div class="about__container bd-grid">
+          <div class="about__data">
+            <span class="section-subtitle about__initial">About us</span>
+            <h2 class="section-title about__initial">
+              We import the best <br />
+              quality hoodies
+            </h2>
+            <p class="about__description">
+              We sell the country's most authentic and original imported
+              products at the best prices. You're always welcome to visit our
+              shop. Originality is our signature.
+            </p>
+            <a href="#" class="button">Explore more</a>
+          </div>
+
+          <img src="assets/img/about.jpg" alt="" class="about__img" />
+        </div>
+      </section>
+
+      <!--========== SERVICES ==========-->
+      <section class="services section bd-container" id="services">
+        <span class="section-subtitle">Offering</span>
+        <h2 class="section-title">Our Services</h2>
+
+        <div class="services__container bd-grid">
+          <!-- =======Service 1======== -->
+          <div class="services__content">
+            <svg
+              class="services__img"
+              version="1.0"
+              xmlns="http://www.w3.org/2000/svg"
+              width="512.000000pt"
+              height="512.000000pt"
+              viewBox="0 0 512.000000 512.000000"
+              preserveAspectRatio="xMidYMid meet"
+            >
+              <g
+                transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                fill="#000000"
+                stroke="none"
+              >
+                <path
+                  d="M2311 5110 c-236 -23 -553 -96 -641 -147 -66 -39 -135 -115 -169
+-186 -39 -83 -83 -248 -79 -300 l3 -42 -135 -61 c-365 -168 -413 -198 -520
+-325 -70 -84 -117 -180 -169 -344 -183 -588 -297 -1412 -332 -2415 -14 -387
+-10 -561 14 -607 18 -34 84 -93 104 -93 9 0 13 -21 13 -77 0 -95 12 -142 47
+-184 54 -64 79 -69 363 -69 284 0 309 5 362 69 26 31 28 31 72 19 l44 -12 4
+-86 c3 -76 7 -93 33 -136 19 -30 49 -60 79 -79 l49 -30 1085 -3 c707 -1 1097
+1 1121 8 57 15 102 50 136 104 26 43 31 62 35 139 l5 89 37 15 37 15 33 -38
+c61 -70 80 -74 368 -74 284 0 309 5 363 69 35 42 47 89 47 184 0 62 3 77 15
+77 9 0 35 20 59 44 66 65 70 98 62 466 -14 645 -59 1194 -142 1730 -43 278
+-69 392 -94 412 -31 25 -67 22 -97 -8 -29 -29 -30 -12 16 -269 84 -474 138
+-1023 161 -1640 13 -349 13 -551 0 -576 -10 -18 -25 -19 -331 -19 l-320 0 4
+1102 c4 1184 3 1154 57 1443 37 194 136 543 170 595 13 20 56 -79 105 -240 44
+-149 49 -158 81 -170 32 -12 68 2 90 35 16 25 16 31 -20 153 -68 231 -113 323
+-215 434 -84 92 -169 145 -383 242 -260 118 -243 106 -239 154 3 43 -36 201
+-68 274 -24 56 -90 142 -132 174 -92 69 -274 125 -536 164 -159 24 -501 34
+-652 20z m474 -150 c167 -16 477 -75 523 -99 14 -8 -16 -56 -116 -189 l-55
+-73 -86 8 c-112 10 -871 10 -982 0 l-87 -8 -70 93 c-38 52 -80 110 -92 130
+l-21 37 43 12 c157 42 376 81 518 92 103 8 322 6 425 -3z m-871 -509 c39 -47
+116 -132 171 -190 55 -57 91 -101 80 -97 -11 4 -135 53 -275 108 -272 108
+-303 127 -316 193 -9 50 49 243 88 292 7 9 34 -21 95 -105 47 -64 118 -155
+157 -201z m1566 269 c31 -62 72 -212 66 -247 -7 -45 -33 -81 -76 -103 -27 -14
+-360 -147 -520 -208 -8 -3 31 43 88 102 131 138 241 270 333 400 41 57 77 102
+82 99 4 -2 16 -22 27 -43z m-580 -259 l115 -6 -135 -136 c-133 -133 -305 -289
+-320 -289 -15 0 -187 156 -320 289 l-135 136 105 6 c146 7 552 8 690 0z
+m-1370 -192 c25 -20 157 -78 387 -169 l348 -137 5 -427 5 -428 24 -19 c30 -25
+62 -24 95 2 l26 20 0 396 c0 372 1 395 18 388 67 -26 177 -26 245 0 16 7 17
+-8 17 -219 0 -213 1 -227 20 -246 27 -27 81 -26 106 1 17 19 19 43 24 276 l5
+255 349 138 c226 90 362 149 386 169 l39 31 178 -81 c212 -96 298 -141 337
+-175 l30 -26 -18 -47 c-85 -220 -159 -479 -196 -686 -55 -303 -53 -257 -59
+-1520 -7 -1331 0 -1227 -84 -1266 -41 -18 -85 -19 -1270 -19 -1362 0 -1279 -4
+-1311 65 -13 28 -16 79 -16 319 0 273 -1 287 -20 306 -30 30 -83 27 -109 -6
+-20 -25 -21 -39 -21 -230 l0 -204 -320 0 -319 0 -12 22 c-20 37 -1 710 31
+1138 39 513 113 1039 196 1400 77 331 172 615 194 580 33 -51 132 -399 169
+-592 52 -273 54 -308 60 -1094 6 -711 7 -743 25 -763 26 -29 79 -28 106 2 l21
+22 -4 750 c-4 782 -5 790 -52 1065 -34 201 -116 490 -201 712 l-18 47 25 21
+c44 38 109 72 312 166 111 51 203 93 205 93 2 1 21 -13 42 -30z m-460 -3762
+c0 -43 -5 -78 -12 -85 -9 -9 -78 -12 -250 -12 -274 0 -258 -7 -258 104 l0 66
+260 0 260 0 0 -73z m3500 4 c0 -105 11 -101 -264 -101 -167 0 -235 3 -244 12
+-7 7 -12 42 -12 85 l0 73 260 0 260 0 0 -69z m-890 -243 c-1 -65 -10 -87 -47
+-106 -31 -17 -2115 -17 -2146 0 -37 19 -46 41 -47 106 l0 62 1120 0 1120 0 0
+-62z"
+                />
+                <path
+                  d="M1955 2061 c-49 -23 -82 -58 -125 -135 -66 -117 -160 -219 -324 -350
+-84 -68 -86 -75 -86 -429 0 -255 3 -314 15 -345 20 -47 50 -79 97 -103 36 -18
+74 -19 1028 -19 954 0 992 1 1028 19 47 24 77 56 97 103 12 31 15 90 15 345 0
+354 -2 361 -86 429 -166 132 -260 234 -328 357 -19 34 -48 75 -63 89 -61 59
+-51 58 -665 58 -527 0 -566 -2 -603 -19z m1180 -169 c107 -176 192 -277 317
+-377 40 -33 79 -66 86 -74 17 -21 18 -581 0 -599 -17 -17 -1939 -17 -1956 0
+-18 18 -17 578 1 599 6 8 44 41 82 72 121 96 246 241 297 342 42 82 -15 75
+602 73 l551 -3 20 -33z"
+                />
+              </g>
+            </svg>
+
+            <h3 class="services__title">Premium Hoodie</h3>
+            <p class="services__description">
+              We offer our clients origianl imported hoodies from USA. Made of
+              best fabric and has a excellent finshing touch.
+            </p>
+          </div>
+          <!-- =======Service 2======== -->
+          <div class="services__content">
+            <svg
+              class="services__img"
+              version="1.0"
+              xmlns="http://www.w3.org/2000/svg"
+              width="512.000000pt"
+              height="512.000000pt"
+              viewBox="0 0 512.000000 512.000000"
+              preserveAspectRatio="xMidYMid meet"
+            >
+              <g
+                transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                fill="#000000"
+                stroke="none"
+              >
+                <path
+                  d="M1417 4915 c-656 -220 -672 -227 -732 -315 -43 -64 -685 -1641 -685
+-1682 1 -46 32 -111 66 -135 16 -11 174 -84 351 -162 258 -115 330 -143 366
+-143 101 0 128 33 234 286 l88 211 5 -1395 c5 -1316 6 -1397 23 -1431 24 -47
+71 -95 121 -122 l41 -22 1265 0 c1227 0 1266 1 1304 19 47 24 98 75 123 124
+17 35 18 106 23 1432 l5 1395 88 -211 c88 -210 109 -245 165 -274 59 -30 99
+-18 435 130 177 79 335 152 351 163 34 24 65 89 66 135 0 36 -628 1588 -675
+1668 -14 25 -48 62 -75 83 -44 35 -114 61 -667 245 l-618 206 -530 -1 -530 -1
+-608 -203z m1553 30 c0 -16 -32 -80 -56 -111 -37 -48 -98 -88 -175 -115 -52
+-18 -86 -22 -179 -22 -93 0 -127 4 -179 22 -77 27 -138 67 -175 115 -24 31
+-56 95 -56 111 0 3 185 5 410 5 226 0 410 -2 410 -5z m-976 -75 c43 -119 138
+-225 251 -280 101 -48 176 -63 315 -63 139 0 213 15 316 63 110 53 204 157
+249 276 10 27 19 50 20 51 3 5 1071 -354 1102 -370 17 -9 40 -31 51 -49 11
+-18 124 -287 250 -598 127 -311 240 -586 251 -612 l20 -46 -306 -141 c-169
+-78 -307 -140 -308 -139 -1 2 -45 108 -98 237 l-97 233 0 219 c0 212 -1 219
+-22 243 -35 38 -86 39 -123 1 l-25 -24 0 -1636 0 -1635 -1280 0 -1280 0 0
+1635 0 1636 -25 24 c-37 38 -88 37 -122 -1 -22 -24 -23 -31 -23 -243 l0 -219
+-97 -233 c-53 -129 -97 -235 -98 -236 -1 -2 -139 61 -307 138 l-305 141 64
+156 c35 87 150 368 256 626 147 361 198 477 222 500 25 25 114 58 575 212 300
+100 547 183 551 183 3 1 13 -22 23 -49z m-1446 -1929 c156 -72 287 -133 292
+-136 8 -5 -50 -155 -61 -155 -6 0 -559 244 -591 261 -15 8 -14 14 9 71 35 87
+43 100 56 95 7 -3 139 -64 295 -136z m4371 51 l30 -72 -27 -14 c-63 -32 -583
+-258 -586 -255 -8 12 -56 132 -56 143 0 14 592 288 602 278 4 -4 21 -40 37
+-80z m-1079 -2663 c0 -98 -1 -101 -29 -130 l-29 -29 -1222 0 -1222 0 -29 29
+c-28 29 -29 32 -29 130 l0 101 1280 0 1280 0 0 -101z"
+                />
+                <path
+                  d="M2380 3743 c-55 -21 -74 -51 -230 -364 -109 -217 -160 -329 -160
+-351 0 -39 30 -92 62 -109 13 -7 55 -15 95 -18 l72 -6 -150 -209 c-134 -188
+-149 -213 -149 -250 0 -45 27 -99 58 -115 11 -6 38 -13 60 -17 l41 -6 -139
+-278 c-76 -152 -142 -293 -145 -312 -10 -50 22 -118 67 -146 60 -37 113 -30
+199 26 227 150 939 648 967 677 25 27 32 43 32 75 0 75 -49 130 -115 130 -14
+0 -25 3 -25 8 0 4 34 48 76 97 192 229 194 232 194 284 0 80 -58 131 -150 131
+-35 0 -40 3 -36 18 3 10 58 135 122 277 109 245 115 263 111 313 -4 59 -26 95
+-77 130 -33 22 -35 22 -399 21 -201 0 -373 -3 -381 -6z m671 -205 c-10 -24
+-71 -162 -136 -307 -104 -235 -117 -268 -112 -305 8 -60 61 -106 122 -106 25
+0 45 -2 45 -5 0 -3 -60 -78 -134 -166 -148 -177 -160 -203 -129 -267 10 -20
+32 -46 50 -57 18 -11 32 -22 32 -25 0 -6 -764 -533 -780 -538 -5 -2 54 124
+132 281 129 259 141 287 135 321 -10 55 -54 98 -105 105 l-43 6 108 150 c191
+267 194 272 194 318 -1 90 -49 127 -162 127 -43 0 -78 2 -78 5 0 3 56 118 125
+255 l125 250 315 0 314 0 -18 -42z"
+                />
+              </g>
+            </svg>
+
+            <h3 class="services__title">High Quality T-Shirt</h3>
+            <p class="services__description">
+              We offer our clients origianl imported T shirts from USA. Made of
+              best fabric and has a excellent finshing touch.
+            </p>
+          </div>
+
+          <!-- =======Service 3======== -->
+          <div class="services__content">
+            <svg
+              class="services__img"
+              version="1.0"
+              xmlns="http://www.w3.org/2000/svg"
+              width="512.000000pt"
+              height="512.000000pt"
+              viewBox="0 0 512.000000 512.000000"
+              preserveAspectRatio="xMidYMid meet"
+            >
+              <g
+                transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                fill="#000000"
+                stroke="none"
+              >
+                <path
+                  d="M2375 5003 c-298 -37 -601 -165 -852 -360 -59 -46 -90 -63 -112 -63
+           -53 0 -231 -38 -327 -70 -406 -136 -657 -416 -741 -827 -26 -126 -23 -451 5
+           -720 12 -112 22 -205 22 -207 0 -3 -26 -16 -57 -31 -178 -81 -297 -256 -310
+           -455 -18 -273 190 -523 465 -558 l55 -7 41 -110 c248 -654 795 -1145 1463
+           -1313 186 -47 333 -65 533 -65 518 0 984 169 1381 502 262 218 494 549 618
+           881 l39 104 71 12 c142 24 278 111 357 231 115 173 116 408 4 583 -45 71 -140
+           154 -215 190 -36 17 -65 36 -65 43 0 7 9 98 20 202 49 473 35 684 -64 930
+           -233 579 -975 1016 -1875 1105 -97 9 -389 12 -456 3z m580 -233 c655 -97 1195
+           -382 1450 -764 147 -222 196 -431 175 -753 -14 -224 -73 -760 -85 -771 -3 -4
+           -7 8 -80 268 -26 91 -54 176 -62 188 -27 43 -62 49 -343 55 -963 22 -1694 220
+           -2042 553 -74 70 -114 124 -144 188 -32 70 -72 99 -124 92 -48 -7 -90 -55 -90
+           -102 0 -59 -30 -185 -57 -238 -56 -110 -144 -208 -264 -293 -85 -60 -282 -155
+           -394 -188 -49 -15 -101 -38 -113 -50 -22 -20 -67 -162 -143 -439 -6 -21 -12
+           -36 -14 -34 -6 6 -50 367 -71 573 -22 229 -22 485 0 589 40 185 105 313 219
+           433 149 156 393 268 630 288 125 10 129 12 228 91 229 184 507 303 789 338 82
+           10 401 -4 535 -24z m-1121 -1393 c233 -204 525 -344 931 -446 345 -86 711
+           -133 1178 -150 131 -5 240 -11 242 -13 2 -2 58 -194 125 -428 l122 -425 -21
+           -77 c-117 -439 -422 -854 -811 -1106 -189 -123 -424 -217 -665 -269 -122 -26
+           -145 -27 -375 -27 -230 0 -253 1 -375 27 -709 151 -1257 648 -1461 1326 l-37
+           122 123 432 c68 238 128 437 134 443 6 6 52 25 101 44 209 76 393 188 521 315
+           80 78 165 195 186 255 5 17 12 30 15 30 3 0 33 -24 67 -53z m-1423 -913 c5
+           -33 14 -129 19 -214 6 -85 16 -192 23 -237 10 -58 10 -83 3 -83 -33 0 -117 53
+           -158 99 -108 119 -110 298 -5 417 38 43 96 88 104 80 2 -2 8 -30 14 -62z
+           m4410 -13 c99 -111 105 -288 14 -407 -30 -39 -116 -100 -156 -109 l-26 -6 14
+           83 c7 46 18 153 23 238 6 85 15 178 20 205 5 28 9 56 9 63 1 21 57 -16 102
+           -67z"
+                />
+                <path
+                  d="M1602 2542 c-66 -24 -118 -65 -159 -126 -43 -63 -56 -116 -51 -201 8
+           -116 71 -211 176 -262 48 -24 69 -28 137 -28 105 1 167 27 234 101 114 125
+           114 303 0 428 -85 94 -221 129 -337 88z m142 -206 c93 -39 87 -164 -8 -196
+           -64 -21 -136 33 -136 100 0 36 30 81 63 95 40 18 41 18 81 1z"
+                />
+                <path
+                  d="M3325 2547 c-66 -22 -99 -43 -142 -90 -52 -56 -68 -87 -83 -159 -28
+           -140 50 -288 185 -350 76 -35 191 -33 267 5 62 30 115 83 150 149 19 36 23 58
+           23 138 0 106 -15 147 -81 220 -73 80 -218 120 -319 87z m130 -211 c35 -15 65
+           -59 65 -96 0 -67 -72 -121 -136 -100 -94 31 -101 156 -10 196 39 17 40 17 81
+           0z"
+                />
+                <path
+                  d="M1959 1461 c-24 -24 -29 -38 -29 -76 0 -43 4 -50 55 -99 313 -298
+           847 -295 1158 8 43 41 47 50 47 91 0 63 -40 105 -99 105 -33 0 -50 -9 -108
+           -55 -132 -107 -262 -155 -423 -155 -154 0 -301 51 -403 140 -67 58 -89 70
+           -130 70 -29 0 -46 -7 -68 -29z"
+                />
+              </g>
+            </svg>
+
+            <h3 class="services__title">Kids</h3>
+            <p class="services__description">
+              We offer our clients origianl imported kids products from USA.
+              Made of best fabric and has a excellent finshing touch.
+            </p>
+          </div>
+
+          <!-- =======Service 4======== -->
+          <div class="services__content">
+            <svg class="services__img" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0)">
+                <path
+                  d="M19.1978 49.6016C17.4308 49.6016 15.9981 51.0342 15.9981 52.8012C15.9981 54.5682 17.4308 
+                        56.0008 19.1978 56.0008C20.9648 56.0008 22.3974 54.5682 22.3974 52.8012C22.3974 51.0342 20.9648 
+                        49.6016 19.1978 49.6016ZM19.1978 53.8677C18.6088 53.8677 18.1312 53.3902 18.1312 52.8012C18.1312 
+                        52.2122 18.6088 51.7347 19.1978 51.7347C19.7868 51.7347 20.2643 52.2122 20.2643 52.8012C20.2643 
+                        53.3902 19.7868 53.8677 19.1978 53.8677Z"
+                />
+                <path
+                  d="M50.1275 49.6016C48.3605 49.6016 46.9279 51.0342 46.9279 52.8012C46.9279 54.5682 48.3605 
+                        56.0008 50.1275 56.0008C51.8945 56.0008 53.3271 54.5682 53.3271 52.8012C53.3271 51.0342 51.8945 
+                        49.6016 50.1275 49.6016ZM50.1275 53.8677C49.5385 53.8677 49.0609 53.3902 49.0609 52.8012C49.0609 
+                        52.2122 49.5385 51.7347 50.1275 51.7347C50.7165 51.7347 51.194 52.2122 51.194 52.8012C51.194 
+                        53.3902 50.7165 53.8677 50.1275 53.8677Z"
+                />
+                <path d="M3.19962 21.8715H5.3327V24.0045H3.19962V21.8715Z" />
+                <path d="M0 26.1377H2.13308V28.2708H0V26.1377Z" />
+                <path d="M52.2606 11.2061H58.6598V13.3391H52.2606V11.2061Z" />
+                <path d="M47.9944 11.2061H50.1275V13.3391H47.9944V11.2061Z" />
+                <path d="M34.1294 4.80676H44.7948V6.93985H34.1294V4.80676Z" />
+                <path d="M29.8632 4.80676H31.9963V6.93985H29.8632V4.80676Z" />
+                <path
+                  d="M63.9925 59.2005V57.0674H54.8842C55.7935 56.0607 56.3575 54.7906 56.495 53.4412L63.4593 
+                        49.461C63.5087 49.4266 63.5556 49.3886 63.5988 49.3469C63.6363 49.3214 63.6723 49.2928 63.7056 
+                        49.2626C63.7858 49.1777 63.8514 49.0798 63.8998 48.9735C63.905 48.9636 63.9123 48.9574 63.917 
+                        48.948C63.9655 48.8272 63.9915 48.6986 63.9936 48.5684C63.9936 48.5564 63.9998 48.547 63.9998 
+                        48.535V38.9362C63.9951 38.9049 63.9889 38.8742 63.9806 38.8435C63.9821 38.8159 63.9821 38.7877 
+                        63.9806 38.7601L61.8475 25.9616C61.8428 25.946 61.8371 25.9299 61.8308 25.9148C61.8308 25.9033 
+                        61.8308 25.8903 61.8308 25.8788L60.7643 21.6127C60.645 21.1367 60.2169 20.8034 59.7264 20.8049H46.7893C46.6446 
+                        20.2852 46.3696 19.8103 45.9905 19.4259L38.708 12.1435C38.1096 11.5414 37.2951 11.204 36.4457 
+                        11.2061H10.6654C10.0764 11.2061 9.59888 11.6836 9.59888 12.2726V16.5388H0V18.6719H9.59888V21.8715H7.4658V24.0046H9.59888V26.1377H4.26617V28.2707H9.59888V37.8696C9.00989 
+                        37.8696 8.53234 38.3472 8.53234 38.9362V48.535C8.53234 48.5574 8.54432 48.5767 8.54536 48.6001C8.55161 
+                        48.6965 8.57088 48.7918 8.60264 48.8829C8.61254 48.9168 8.62451 48.9501 8.63805 48.9829C8.68805 49.0949 
+                        8.75679 49.1969 8.84168 49.285L12.8178 53.2611C12.9198 54.6749 13.4911 56.0149 14.441 57.0674H0V59.2005H63.9925ZM44.1016 50.6681H25.2236C25.0929 
+                        50.2984 24.9278 49.9411 24.731 49.6016H44.5943C44.3974 49.9411 44.2323 50.2984 44.1016 50.6681ZM25.597 
+                        52.8012H43.7282C43.7288 54.3776 44.3141 55.8977 45.3708 57.0674H23.9545C25.0111 55.8977 25.5965 54.3776 
+                        25.597 52.8012ZM45.8613 52.8012C45.8613 50.4452 47.7715 48.535 50.1275 48.535C52.4835 48.535 54.3937 
+                        50.4452 54.3937 52.8012C54.3937 55.1572 52.4835 57.0674 50.1275 57.0674C47.7715 57.0674 45.8613 55.1572 45.8613 
+                        52.8012ZM56.2898 51.0946C56.145 50.5723 55.9336 50.0703 55.6607 49.6016H58.9093L56.2898 51.0946ZM61.6662 
+                        37.8696H51.194V27.2042H59.8894L61.6662 37.8696ZM59.4269 25.0711H50.1275C49.5385 25.0711 49.0609 25.5487 
+                        49.0609 26.1377V38.9362C49.0609 39.5252 49.5385 40.0027 50.1275 40.0027H61.8595V42.1358H58.6598V44.2689H61.8595V47.4685H53.6578C51.519 
+                        46.0463 48.736 46.0463 46.5972 47.4685H22.7281C20.5893 46.0463 17.8063 46.0463 15.6674 
+                        47.4685H10.6654V43.2023H14.9316V41.0692H10.6654V40.0027H45.8613C46.4503 40.0027 46.9279 
+                        39.5252 46.9279 38.9362V22.938H58.8937L59.4269 25.0711ZM11.732 28.2707H20.2643V26.1377H11.732V24.0046H21.3308V21.8715H11.732V18.6719H17.0647V16.5388H11.732V13.3391H36.4457C36.7285 
+                        13.3402 36.9993 13.4527 37.1998 13.6516L44.4823 20.9341C44.6828 21.1341 44.7948 21.4059 44.7948 21.6892V37.8696H11.732V28.2707ZM13.6646 
+                        49.6016C13.4766 49.9255 13.3177 50.2661 13.1901 50.6181L12.1736 49.6016H13.6646ZM14.9316 
+                        52.8012C14.9316 50.4452 16.8418 48.535 19.1978 48.535C21.5537 48.535 23.4639 50.4452 23.4639 
+                        52.8012C23.4639 55.1572 21.5537 57.0674 19.1978 57.0674C16.8418 57.0674 14.9316 55.1572 14.9316 52.8012Z"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0">
+                  <rect width="64" height="64" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+            <h3 class="services__title">Delivery</h3>
+            <p class="services__description">
+              We offer home delivery for every products. No minimum
+              requirements. 3-5 days delivery.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--========== MENU ==========-->
+      <section class="products section bd-container" id="products">
+        <span class="section-subtitle">Special</span>
+        <h2 class="section-title">Product of the week</h2>
+
+        <div class="products__container bd-grid">
+          <div class="products__content">
+            <img src="assets/img/hoodie1.png" alt="" class="products__img" />
+            <h3 class="products__name">Premium Hoodie</h3>
+            <span class="products__detail">100% Cotton</span>
+            <span class="products__preci">$22.00</span>
+            <a href="#" class="button products__button"
+              ><i class="bx bx-cart-alt"></i
+            ></a>
+          </div>
+
+          <div class="products__content">
+            <img src="assets/img/hoodie2.png" alt="" class="products__img" />
+            <h3 class="products__name">T Shirt</h3>
+            <span class="products__detail">Premium fabric</span>
+            <span class="products__preci">$12.00</span>
+            <a href="#" class="button products__button"
+              ><i class="bx bx-cart-alt"></i
+            ></a>
+          </div>
+
+          <div class="products__content">
+            <img src="assets/img/hoodie3.png" alt="" class="products__img" />
+            <h3 class="products__name">Orange Hoodie</h3>
+            <span class="products__detail">100% cotton</span>
+            <span class="products__preci">$9.50</span>
+            <a href="#" class="button products__button"
+              ><i class="bx bx-cart-alt"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+<!--========== APP ==========-->
+      <section class="app section bd-container">
+        <div class="app__container bd-grid">
+          <div class="app__data">
+            <span class="section-subtitle app__initial">App</span>
+            <h2 class="section-title app__initial">App is available</h2>
+            <p class="app__description">
+              Find our application and download it, you can make purchase
+              orders, see your deliveries on the way and much more.
+            </p>
+            <div class="app__stores">
+              <a href="#"
+                ><img src="assets/img/app1.png" alt="" class="app__store"
+              /></a>
+              <a href="#"
+                ><img src="assets/img/app2.png" alt="" class="app__store"
+              /></a>
+            </div>
+          </div>
+
+          <img src="assets/img/movil-app.png" alt="" class="app__img" />
+        </div>
+      </section>
+
+       <!--========== CONTACT US ==========-->
+       <section class="contact section bd-container" id="contact">
+        <div class="contact__container bd-grid">
+            <div class="contact__data">
+                <span class="section-subtitle contact__initial">Let's talk</span>
+                <h2 class="section-title contact__initial">Contact us</h2>
+                <p class="contact__description">If you want to know more about our products, contact us and we will attend you quickly, with our 24/7 chat service.</p>
+            </div>
+
+            <div class="contact__button">
+                <a href="#" class="button">Contact us now</a>
+            </div>
+        </div>
+    </section>
+    </main>
+    <!--========== FOOTER ==========-->
+    <footer class="footer section bd-container">
+        <div class="footer__container bd-grid">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">Brand Galleria</a>
+                <span class="footer__description">Premium hoodies</span>
+                <div>
+                    <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Services</h3>
+                <ul>
+                    <li><a href="#" class="footer__link">Delivery</a></li>
+                    <li><a href="#" class="footer__link">Pricing</a></li>
+                    <li><a href="#" class="footer__link">Products</a></li>
+                    <li><a href="#" class="footer__link">Purchase Online</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Information</h3>
+                <ul>
+                    <li><a href="#" class="footer__link">Event</a></li>
+                    <li><a href="#" class="footer__link">Contact us</a></li>
+                    <li><a href="#" class="footer__link">Privacy policy</a></li>
+                    <li><a href="#" class="footer__link">Terms of services</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Adress</h3>
+                <ul>
+                    <li>Mirpur-10</li>
+                    <li>Dhaka-1206</li>
+                    <li>+880 1776474565</li>
+                    <li>brandgalleria@email.com</li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="footer__copy">&#169; 2021. Designed by Ashraful Islam. All right reserved</p>
+    </footer>
+
+    <!--========== SCROLL REVEAL ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
